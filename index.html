@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI for the Long-Tail (ALT) | ICLR 2027 Workshop Proposal</title>
+  <meta name="description" content="AI for the Long-Tail (ALT): What Generalizes, What Works, and When to Use It. A proposed workshop at ICLR 2027 connecting domain experts and ML researchers working on long-tail AI applications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aiforthelongtail.github.io/">
+  <meta property="og:title" content="AI for the Long-Tail (ALT)">
+  <meta property="og:description" content="What generalizes, what works, and when to use it. A proposed workshop at ICLR 2027.">
+  <meta property="og:image" content="https://aiforthelongtail.github.io/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="#top" aria-label="ALT home">ALT</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#cfp">Call for papers</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1>AI for the Long&#8209;Tail</h1>
+      <p class="hero-sub">What generalizes, what works, and when to use it</p>
+      <p class="hero-meta">A proposed workshop at ICLR 2027, California, April 2027</p>
+      <p class="hero-actions">
+        <a class="btn" href="#cfp">Read the call for papers</a>
+        <a class="btn-quiet" href="mailto:aiforthelongtail@gmail.com">Email the organizers</a>
+      </p>
+    </div>
+    <svg class="tail" role="img" aria-labelledby="tail-title" xmlns="http://www.w3.org/2000/svg">
+    <title id="tail-title">A long-tail distribution: a few applications with abundant supervision, then a long tail of specialized tasks such as low-resource translation, rare-disease diagnosis, and legal reasoning.</title>
+    <line class="tail-axis" x1="1.5%" x2="99%" y1="93.00%" y2="93.00%"/>
+    <rect class="tail-head" x="2.19%" y="7.00%" width="0.62%" height="86.00%"/>
+    <rect class="tail-head" x="3.07%" y="43.61%" width="0.62%" height="49.39%"/>
+    <rect class="tail-head" x="3.95%" y="57.29%" width="0.62%" height="35.71%"/>
+    <rect class="tail-head" x="4.83%" y="64.63%" width="0.62%" height="28.37%"/>
+    <rect class="tail-head" x="5.71%" y="69.27%" width="0.62%" height="23.73%"/>
+    <rect class="tail-head" x="6.59%" y="72.49%" width="0.62%" height="20.51%"/>
+    <rect class="tail-head" x="7.47%" y="74.87%" width="0.62%" height="18.13%"/>
+    <rect class="tail-head" x="8.36%" y="76.71%" width="0.62%" height="16.29%"/>
+    <rect class="tail-head" x="9.24%" y="78.17%" width="0.62%" height="14.83%"/>
+    <rect class="tail-head" x="10.12%" y="79.37%" width="0.62%" height="13.63%"/>
+    <rect class="tail-head" x="11.00%" y="80.37%" width="0.62%" height="12.63%"/>
+    <rect class="tail-head" x="11.88%" y="81.22%" width="0.62%" height="11.78%"/>
+    <g class="tail-pt is-odd" style="--i:0"><line x1="13.07%" x2="13.07%" y1="93.00%" y2="81.95%"/><circle cx="13.07%" cy="81.95%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:1"><line x1="13.95%" x2="13.95%" y1="93.00%" y2="82.59%"/><circle cx="13.95%" cy="82.59%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:2"><line x1="14.83%" x2="14.83%" y1="93.00%" y2="83.15%"/><circle cx="14.83%" cy="83.15%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:3"><line x1="15.71%" x2="15.71%" y1="93.00%" y2="83.64%"/><circle cx="15.71%" cy="83.64%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:4"><line x1="16.59%" x2="16.59%" y1="93.00%" y2="84.08%"/><circle cx="16.59%" cy="84.08%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:5"><line x1="17.47%" x2="17.47%" y1="93.00%" y2="84.48%"/><circle cx="17.47%" cy="84.48%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:6"><line x1="18.35%" x2="18.35%" y1="93.00%" y2="84.84%"/><circle cx="18.35%" cy="84.84%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:7"><line x1="19.23%" x2="19.23%" y1="93.00%" y2="85.17%"/><circle cx="19.23%" cy="85.17%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:8"><line x1="20.11%" x2="20.11%" y1="93.00%" y2="85.47%"/><circle cx="20.11%" cy="85.47%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt" style="--i:9"><line x1="21.00%" x2="21.00%" y1="93.00%" y2="85.75%"/><circle cx="21.00%" cy="85.75%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:10"><line x1="21.88%" x2="21.88%" y1="93.00%" y2="86.00%"/><circle cx="21.88%" cy="86.00%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:11"><line x1="22.76%" x2="22.76%" y1="93.00%" y2="86.23%"/><circle cx="22.76%" cy="86.23%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:12"><line x1="23.64%" x2="23.64%" y1="93.00%" y2="86.45%"/><circle cx="23.64%" cy="86.45%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:13"><line x1="24.52%" x2="24.52%" y1="93.00%" y2="86.65%"/><circle cx="24.52%" cy="86.65%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:14"><line x1="25.40%" x2="25.40%" y1="93.00%" y2="86.84%"/><circle cx="25.40%" cy="86.84%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:15"><line x1="26.28%" x2="26.28%" y1="93.00%" y2="87.02%"/><circle cx="26.28%" cy="87.02%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:16"><line x1="27.16%" x2="27.16%" y1="93.00%" y2="87.18%"/><circle cx="27.16%" cy="87.18%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:17"><line x1="28.04%" x2="28.04%" y1="93.00%" y2="87.34%"/><circle cx="28.04%" cy="87.34%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt is-odd" style="--i:18"><line x1="28.92%" x2="28.92%" y1="93.00%" y2="87.49%"/><circle cx="28.92%" cy="87.49%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:19"><line x1="29.80%" x2="29.80%" y1="93.00%" y2="87.62%"/><circle cx="29.80%" cy="87.62%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:20"><line x1="30.68%" x2="30.68%" y1="93.00%" y2="87.76%"/><circle cx="30.68%" cy="87.76%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:21"><line x1="31.56%" x2="31.56%" y1="93.00%" y2="87.88%"/><circle cx="31.56%" cy="87.88%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:22"><line x1="32.44%" x2="32.44%" y1="93.00%" y2="88.00%"/><circle cx="32.44%" cy="88.00%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:23"><line x1="33.33%" x2="33.33%" y1="93.00%" y2="88.11%"/><circle cx="33.33%" cy="88.11%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:24"><line x1="34.21%" x2="34.21%" y1="93.00%" y2="88.21%"/><circle cx="34.21%" cy="88.21%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:25"><line x1="35.09%" x2="35.09%" y1="93.00%" y2="88.32%"/><circle cx="35.09%" cy="88.32%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:26"><line x1="35.97%" x2="35.97%" y1="93.00%" y2="88.41%"/><circle cx="35.97%" cy="88.41%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt" style="--i:27"><line x1="36.85%" x2="36.85%" y1="93.00%" y2="88.50%"/><circle cx="36.85%" cy="88.50%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:28"><line x1="37.73%" x2="37.73%" y1="93.00%" y2="88.59%"/><circle cx="37.73%" cy="88.59%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:29"><line x1="38.61%" x2="38.61%" y1="93.00%" y2="88.68%"/><circle cx="38.61%" cy="88.68%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:30"><line x1="39.49%" x2="39.49%" y1="93.00%" y2="88.76%"/><circle cx="39.49%" cy="88.76%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:31"><line x1="40.37%" x2="40.37%" y1="93.00%" y2="88.83%"/><circle cx="40.37%" cy="88.83%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:32"><line x1="41.25%" x2="41.25%" y1="93.00%" y2="88.91%"/><circle cx="41.25%" cy="88.91%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:33"><line x1="42.13%" x2="42.13%" y1="93.00%" y2="88.98%"/><circle cx="42.13%" cy="88.98%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:34"><line x1="43.01%" x2="43.01%" y1="93.00%" y2="89.05%"/><circle cx="43.01%" cy="89.05%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:35"><line x1="43.89%" x2="43.89%" y1="93.00%" y2="89.11%"/><circle cx="43.89%" cy="89.11%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt is-odd" style="--i:36"><line x1="44.78%" x2="44.78%" y1="93.00%" y2="89.18%"/><circle cx="44.78%" cy="89.18%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:37"><line x1="45.66%" x2="45.66%" y1="93.00%" y2="89.24%"/><circle cx="45.66%" cy="89.24%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:38"><line x1="46.54%" x2="46.54%" y1="93.00%" y2="89.30%"/><circle cx="46.54%" cy="89.30%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:39"><line x1="47.42%" x2="47.42%" y1="93.00%" y2="89.36%"/><circle cx="47.42%" cy="89.36%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:40"><line x1="48.30%" x2="48.30%" y1="93.00%" y2="89.41%"/><circle cx="48.30%" cy="89.41%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:41"><line x1="49.18%" x2="49.18%" y1="93.00%" y2="89.46%"/><circle cx="49.18%" cy="89.46%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:42"><line x1="50.06%" x2="50.06%" y1="93.00%" y2="89.51%"/><circle cx="50.06%" cy="89.51%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:43"><line x1="50.94%" x2="50.94%" y1="93.00%" y2="89.56%"/><circle cx="50.94%" cy="89.56%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:44"><line x1="51.82%" x2="51.82%" y1="93.00%" y2="89.61%"/><circle cx="51.82%" cy="89.61%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt" style="--i:45"><line x1="52.70%" x2="52.70%" y1="93.00%" y2="89.66%"/><circle cx="52.70%" cy="89.66%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:46"><line x1="53.58%" x2="53.58%" y1="93.00%" y2="89.71%"/><circle cx="53.58%" cy="89.71%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:47"><line x1="54.46%" x2="54.46%" y1="93.00%" y2="89.75%"/><circle cx="54.46%" cy="89.75%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:48"><line x1="55.34%" x2="55.34%" y1="93.00%" y2="89.79%"/><circle cx="55.34%" cy="89.79%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:49"><line x1="56.22%" x2="56.22%" y1="93.00%" y2="89.83%"/><circle cx="56.22%" cy="89.83%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:50"><line x1="57.11%" x2="57.11%" y1="93.00%" y2="89.87%"/><circle cx="57.11%" cy="89.87%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:51"><line x1="57.99%" x2="57.99%" y1="93.00%" y2="89.91%"/><circle cx="57.99%" cy="89.91%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:52"><line x1="58.87%" x2="58.87%" y1="93.00%" y2="89.95%"/><circle cx="58.87%" cy="89.95%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:53"><line x1="59.75%" x2="59.75%" y1="93.00%" y2="89.99%"/><circle cx="59.75%" cy="89.99%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt is-odd" style="--i:54"><line x1="60.63%" x2="60.63%" y1="93.00%" y2="90.02%"/><circle cx="60.63%" cy="90.02%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:55"><line x1="61.51%" x2="61.51%" y1="93.00%" y2="90.06%"/><circle cx="61.51%" cy="90.06%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:56"><line x1="62.39%" x2="62.39%" y1="93.00%" y2="90.09%"/><circle cx="62.39%" cy="90.09%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:57"><line x1="63.27%" x2="63.27%" y1="93.00%" y2="90.13%"/><circle cx="63.27%" cy="90.13%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:58"><line x1="64.15%" x2="64.15%" y1="93.00%" y2="90.16%"/><circle cx="64.15%" cy="90.16%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:59"><line x1="65.03%" x2="65.03%" y1="93.00%" y2="90.19%"/><circle cx="65.03%" cy="90.19%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:60"><line x1="65.91%" x2="65.91%" y1="93.00%" y2="90.22%"/><circle cx="65.91%" cy="90.22%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:61"><line x1="66.79%" x2="66.79%" y1="93.00%" y2="90.25%"/><circle cx="66.79%" cy="90.25%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:62"><line x1="67.67%" x2="67.67%" y1="93.00%" y2="90.28%"/><circle cx="67.67%" cy="90.28%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt" style="--i:63"><line x1="68.56%" x2="68.56%" y1="93.00%" y2="90.31%"/><circle cx="68.56%" cy="90.31%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:64"><line x1="69.44%" x2="69.44%" y1="93.00%" y2="90.34%"/><circle cx="69.44%" cy="90.34%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:65"><line x1="70.32%" x2="70.32%" y1="93.00%" y2="90.36%"/><circle cx="70.32%" cy="90.36%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:66"><line x1="71.20%" x2="71.20%" y1="93.00%" y2="90.39%"/><circle cx="71.20%" cy="90.39%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:67"><line x1="72.08%" x2="72.08%" y1="93.00%" y2="90.42%"/><circle cx="72.08%" cy="90.42%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:68"><line x1="72.96%" x2="72.96%" y1="93.00%" y2="90.44%"/><circle cx="72.96%" cy="90.44%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:69"><line x1="73.84%" x2="73.84%" y1="93.00%" y2="90.47%"/><circle cx="73.84%" cy="90.47%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:70"><line x1="74.72%" x2="74.72%" y1="93.00%" y2="90.49%"/><circle cx="74.72%" cy="90.49%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:71"><line x1="75.60%" x2="75.60%" y1="93.00%" y2="90.52%"/><circle cx="75.60%" cy="90.52%" r="4.5" class="is-labelled"/></g>
+    <g class="tail-pt is-odd" style="--i:72"><line x1="76.48%" x2="76.48%" y1="93.00%" y2="90.54%"/><circle cx="76.48%" cy="90.54%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:73"><line x1="77.36%" x2="77.36%" y1="93.00%" y2="90.56%"/><circle cx="77.36%" cy="90.56%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:74"><line x1="78.24%" x2="78.24%" y1="93.00%" y2="90.59%"/><circle cx="78.24%" cy="90.59%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:75"><line x1="79.12%" x2="79.12%" y1="93.00%" y2="90.61%"/><circle cx="79.12%" cy="90.61%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:76"><line x1="80.00%" x2="80.00%" y1="93.00%" y2="90.63%"/><circle cx="80.00%" cy="90.63%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:77"><line x1="80.89%" x2="80.89%" y1="93.00%" y2="90.65%"/><circle cx="80.89%" cy="90.65%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:78"><line x1="81.77%" x2="81.77%" y1="93.00%" y2="90.67%"/><circle cx="81.77%" cy="90.67%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:79"><line x1="82.65%" x2="82.65%" y1="93.00%" y2="90.69%"/><circle cx="82.65%" cy="90.69%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:80"><line x1="83.53%" x2="83.53%" y1="93.00%" y2="90.71%"/><circle cx="83.53%" cy="90.71%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:81"><line x1="84.41%" x2="84.41%" y1="93.00%" y2="90.73%"/><circle cx="84.41%" cy="90.73%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:82"><line x1="85.29%" x2="85.29%" y1="93.00%" y2="90.75%"/><circle cx="85.29%" cy="90.75%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:83"><line x1="86.17%" x2="86.17%" y1="93.00%" y2="90.77%"/><circle cx="86.17%" cy="90.77%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:84"><line x1="87.05%" x2="87.05%" y1="93.00%" y2="90.79%"/><circle cx="87.05%" cy="90.79%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:85"><line x1="87.93%" x2="87.93%" y1="93.00%" y2="90.80%"/><circle cx="87.93%" cy="90.80%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:86"><line x1="88.81%" x2="88.81%" y1="93.00%" y2="90.82%"/><circle cx="88.81%" cy="90.82%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:87"><line x1="89.69%" x2="89.69%" y1="93.00%" y2="90.84%"/><circle cx="89.69%" cy="90.84%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:88"><line x1="90.57%" x2="90.57%" y1="93.00%" y2="90.86%"/><circle cx="90.57%" cy="90.86%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:89"><line x1="91.45%" x2="91.45%" y1="93.00%" y2="90.87%"/><circle cx="91.45%" cy="90.87%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:90"><line x1="92.33%" x2="92.33%" y1="93.00%" y2="90.89%"/><circle cx="92.33%" cy="90.89%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:91"><line x1="93.22%" x2="93.22%" y1="93.00%" y2="90.91%"/><circle cx="93.22%" cy="90.91%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:92"><line x1="94.10%" x2="94.10%" y1="93.00%" y2="90.92%"/><circle cx="94.10%" cy="90.92%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:93"><line x1="94.98%" x2="94.98%" y1="93.00%" y2="90.94%"/><circle cx="94.98%" cy="90.94%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:94"><line x1="95.86%" x2="95.86%" y1="93.00%" y2="90.95%"/><circle cx="95.86%" cy="90.95%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:95"><line x1="96.74%" x2="96.74%" y1="93.00%" y2="90.97%"/><circle cx="96.74%" cy="90.97%" r="2.6"/></g>
+    <g class="tail-pt is-odd" style="--i:96"><line x1="97.62%" x2="97.62%" y1="93.00%" y2="90.98%"/><circle cx="97.62%" cy="90.98%" r="2.6"/></g>
+    <g class="tail-pt" style="--i:97"><line x1="98.50%" x2="98.50%" y1="93.00%" y2="91.00%"/><circle cx="98.50%" cy="91.00%" r="2.6"/></g>
+    <svg class="tail-label" x="20.11%" y="85.47%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">low-resource translation</text></svg>
+    <svg class="tail-label is-minor" x="28.04%" y="87.34%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">rare-disease diagnosis</text></svg>
+    <svg class="tail-label" x="35.97%" y="88.41%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">exceptions in lab protocols</text></svg>
+    <svg class="tail-label is-minor" x="43.89%" y="89.11%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">jurisdiction-specific legal reasoning</text></svg>
+    <svg class="tail-label" x="51.82%" y="89.61%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">industrial fault detection</text></svg>
+    <svg class="tail-label is-minor" x="59.75%" y="89.99%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">interpreting chemistry measurements</text></svg>
+    <svg class="tail-label is-minor" x="67.67%" y="90.28%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">biomedical image annotation</text></svg>
+    <svg class="tail-label is-minor" x="75.60%" y="90.52%" overflow="visible"><text transform="rotate(-45)" x="12" y="4">climate policy text</text></svg>
+    <text class="tail-caption" x="1.5%" y="99.5%">Applications, ranked by effective supervision</text>
+    </svg>
+  </section>
+
+  <section id="about" class="section">
+    <div class="wrap split">
+      <h2>The long tail of AI applications</h2>
+      <div class="prose">
+        <p>Foundation models promise useful AI for applications that cannot support a large, carefully supervised training effort of their own. Delivering on that promise requires more than success on familiar examples: models must handle the unfamiliar cases, exceptions, and constraints that matter to experts. AI for the Long-Tail (ALT) addresses this challenge across both under-supported domains and specialized tasks within mainstream fields. Its central aim is to connect domain experts facing related learning problems, so that experience and solutions developed in one field can inform another.</p>
+        <p>Three questions provide the machine learning (ML) basis for this exchange: <em>what generalizes, what works, and when to use it?</em> Participants will compare generalization requirements, effective interventions, and useful human-in-the-loop roles under limited effective supervision, including incomplete annotations, costly expert feedback, and weak outcome signals. ML researchers interested in applications contribute methods and help investigate when an approach can be adapted across settings.</p>
+        <p>ALT aims to turn scattered application experience into opportunities for method reuse and joint problem-solving. A further outcome is to identify recurring model limitations and application-grounded priorities for foundation-model training and adaptation.</p>
+        <p class="aside"><strong>Who should come:</strong> domain experts who develop, adapt, or use foundation models, and ML researchers interested in applications, including model training and post-training in academia and industry. Many people are both.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions" class="section band">
+    <div class="wrap">
+      <h2>Three questions</h2>
+      <div class="questions">
+        <article class="q">
+          <h3>What generalizes?</h3>
+          <p class="q-lede">When do model capabilities and gains from adaptation extend beyond the examples or settings in which they were developed?</p>
+          <p>We invite application-grounded studies of unfamiliar cases, exceptions, changing conditions, and new combinations of requirements. Contributions should clarify what is expected to transfer and test beyond the cases that motivated an improvement.</p>
+        </article>
+        <article class="q">
+          <h3>What works?</h3>
+          <p class="q-lede">Which interventions address which problems, with what supervision and under what conditions?</p>
+          <p>We welcome practical solutions and informative failures involving adaptation, post-training, retrieval, tools, task decomposition, and expert guidance. The aim is to identify an approach worth adapting, the changes needed, and a test of whether it helps.</p>
+        </article>
+        <article class="q">
+          <h3>When to use it?</h3>
+          <p class="q-lede">Given demonstrated capabilities and remaining uncertainty, what role should a model play, and when are experts, additional tools, or another approach necessary?</p>
+          <p>We seek studies of task allocation, clarification, expert correction, verification, and deferral, focusing on the outcomes and costs of the whole workflow. Human oversight should be assessed as part of the system, not assumed to guarantee reliability.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" class="section">
+    <div class="wrap split">
+      <h2>Program</h2>
+      <div>
+        <p class="prose lead">A full day, in person. Talks bring findings and cases; two panels turn them into joint problem-solving. The format below is tentative.</p>
+        <ol class="flow">
+          <li><span class="flow-name">Opening</span><span class="flow-desc">Shared questions and the cases collected before the workshop.</span></li>
+          <li><span class="flow-name">Invited talks I: foundation-model perspectives</span><span class="flow-desc">Three talks on capabilities, generalization, training, and adaptation.</span></li>
+          <li><span class="flow-name">Poster session A</span><span class="flow-desc">All accepted papers, including tiny and short papers.</span></li>
+          <li><span class="flow-name">Contributed talks A: practical methods and experience</span><span class="flow-desc">Accepted papers presenting the problem, available supervision, approach, and findings.</span></li>
+          <li><span class="flow-name">Poster session B</span><span class="flow-desc">Authors may present in either session, or both.</span></li>
+          <li class="is-panel"><span class="flow-name">Panel 1: sharing practical experience</span><span class="flow-desc">Post-training, recursive self-improvement, self-evolving agents, and tool-based workflows: their costs, prerequisites, and suitable uses. Followed by a method-first case exercise.</span></li>
+          <li><span class="flow-name">Invited talks II: meaningful application problems</span><span class="flow-desc">Two talks on what experts need, what counts as progress, and where models succeed or fall short.</span></li>
+          <li><span class="flow-name">Contributed talks B: application challenges and failure cases</span><span class="flow-desc">Failures and partial successes from accepted papers.</span></li>
+          <li class="is-panel"><span class="flow-name">Panel 2: learning from application failures</span><span class="flow-desc">Domain experts take part as research collaborators, not task providers. Followed by a problem-first case exercise.</span></li>
+          <li><span class="flow-name">Closing</span><span class="flow-desc">Lessons and next steps for the contributing communities.</span></li>
+        </ol>
+        <div class="prose">
+          <h3>How the panels work</h3>
+          <p>Each panel pairs 30 minutes of discussion and Q&amp;A with 30 minutes of interactive case exploration. Before the workshop, speakers, authors, and the wider community can share failures or partial successes. With expert review, selected cases are described in terms of what generalizes, what works, and when to use it. In the room, case contributors, panelists, and the audience refine a candidate intervention and a follow-up test for each case.</p>
+          <p>With contributors' agreement, we will publish the expert-reviewed cases and lessons on this website and share them with the communities they came from.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cfp" class="section band">
+    <div class="wrap split">
+      <h2>Call for papers</h2>
+      <div>
+        <p class="prose lead">The call opens in December 2026. Details below are provisional until the workshop is accepted.</p>
+        <dl class="formats">
+          <div><dt>Regular papers</dt><dd>9 pages</dd></div>
+          <div><dt>Short papers</dt><dd>4 pages</dd></div>
+          <div><dt>Tiny papers</dt><dd>2 pages</dd></div>
+        </dl>
+        <p class="formats-note">Maximum length, excluding references. Submissions use the ICLR template.</p>
+        <div class="prose">
+          <h3>What to submit</h3>
+          <p>Ongoing and original work addressing any of the three questions: methods, empirical studies, evaluation protocols, domain challenges, informative failures, and partial successes. Single-domain studies are welcome. Challenge papers need not propose an algorithm, but should specify the required behavior and show why the difficulty matters in practice. Extensions of published work must identify a substantive addition.</p>
+          <h3>Review</h3>
+          <p>Double-blind, with two to three independent human reviews per paper, combining ML and application expertise. Accepted papers will be public on OpenReview, and tiny and short papers are eligible for contributed talks.</p>
+          <h3>Use of AI</h3>
+          <p>Papers must be primarily human-authored; AI-generated papers will be desk-rejected. Authors may use AI assistance, but must verify its output, disclose substantive use, and remain responsible for the work. AI will not act as an author, reviewer, or decision-maker.</p>
+          <h3>Not writing a paper?</h3>
+          <p>Share an application case instead: a failure or partial success from your field. Case reports need no paper submission or workshop attendance. The call for cases opens alongside the call for papers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dates" class="section">
+    <div class="wrap">
+      <h2>Important dates</h2>
+      <ol class="dates">
+        <li><time datetime="2026-12-07">7 Dec 2026</time><span>Call for papers opens</span></li>
+        <li><time datetime="2027-02-01">1 Feb 2027</time><span>Submission deadline</span></li>
+        <li><time datetime="2027-02-26">26 Feb 2027</time><span>Author notification</span></li>
+        <li><time datetime="2027-04">29&ndash;30 Apr 2027</time><span>Workshop at ICLR 2027; the day will be announced</span></li>
+      </ol>
+      <p class="dates-note">Deadlines are 11:59 pm Anywhere on Earth (AoE).</p>
+    </div>
+  </section>
+
+  <section id="speakers" class="section band">
+    <div class="wrap">
+      <h2>Invited speakers</h2>
+      <p class="people-note">All have agreed to take part, subject to the workshop being accepted.</p>
+      <ul class="people">
+        <li><a href="https://elliottash.com/"><img src="assets/img/people/elliott-ash.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Elliott Ash</span></a><span class="role">Associate Professor, ETH Zurich</span></li>
+        <li><a href="https://www.cs.unc.edu/~mbansal/"><img src="assets/img/people/mohit-bansal.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Mohit Bansal</span></a><span class="role">Parker Distinguished Professor, UNC Chapel Hill</span></li>
+        <li><a href="https://snorkel.ai/author/charles-dickens/"><img src="assets/img/people/charles-dickens.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Charles Dickens</span></a><span class="role">Senior Applied Research Scientist, Snorkel AI</span></li>
+        <li><a href="https://dannagurari.colorado.edu/about/"><img src="assets/img/people/danna-gurari.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Danna Gurari</span></a><span class="role">Associate Professor, University of Colorado Boulder</span></li>
+        <li><a href="https://kjablonka.com/bio.html"><img src="assets/img/people/kevin-jablonka.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Kevin Maik Jablonka</span></a><span class="role">Independent Research Group Leader, FSU Jena and HIPOLE Jena</span></li>
+        <li><a href="https://zhijing-jin.com/home/index.php/bio/"><img src="assets/img/people/zhijing-jin.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Zhijing Jin</span></a><span class="role">Assistant Professor, University of Toronto</span></li>
+        <li><a href="https://cs.stanford.edu/people/jure/"><img src="assets/img/people/jure-leskovec.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Jure Leskovec</span></a><span class="role">Professor, Stanford University</span></li>
+        <li><a href="https://vsubhashini.github.io/index.html"><img src="assets/img/people/subhashini-venugopalan.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Subhashini Venugopalan</span></a><span class="role">Research Scientist, Google Research</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="organizers" class="section">
+    <div class="wrap">
+      <h2>Organizers</h2>
+      <ul class="people">
+        <li><a href="https://www.law.hku.hk/academic_staff/professor-yu-fan/"><img src="assets/img/people/yu-fan.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Yu Fan</span></a><span class="role">University of Hong Kong</span></li>
+        <li><a href="https://people.epfl.ch/olga.fink/?lang=en"><img src="assets/img/people/olga-fink.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Olga Fink</span></a><span class="role">EPFL</span></li>
+        <li><a href="https://yifan-h.github.io/"><img src="assets/img/people/yifan-hou.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Yifan Hou</span></a><span class="role">ETH Zurich</span></li>
+        <li><a href="https://alexanderhoyle.com/"><img src="assets/img/people/alexander-hoyle.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Alexander Hoyle</span></a><span class="role">TU Wien</span></li>
+        <li><a href="https://edisonni-hku.github.io/"><img src="assets/img/people/jingwei-ni.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Jingwei Ni</span></a><span class="role">ETH Zurich</span></li>
+        <li><a href="https://law.stanford.edu/julian-nyarko/"><img src="assets/img/people/julian-nyarko.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Julian Nyarko</span></a><span class="role">Stanford University</span></li>
+        <li><a href="https://english.tau.ac.il/profile/urielste"><img src="assets/img/people/uriel-stettner.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Uriel Stettner</span></a><span class="role">Tel Aviv University</span></li>
+        <li><a href="https://lawecon.ethz.ch/group/scientific-team/tian.html"><img src="assets/img/people/yang-tian.jpg" alt="" loading="lazy" width="480" height="480"><span class="name">Yang Tian</span></a><span class="role">ETH Zurich</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" class="footer">
+  <div class="wrap">
+    <p class="footer-lede">Questions, ideas, or a case from your field?</p>
+    <a class="footer-mail" href="mailto:aiforthelongtail@gmail.com">aiforthelongtail@gmail.com</a>
+    <p class="footer-fine">AI for the Long-Tail (ALT) is a workshop proposed to ICLR 2027.</p>
+  </div>
+</footer>
+</body>
+</html>
