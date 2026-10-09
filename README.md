@@ -19,8 +19,8 @@ assets/img/favicon.svg
 - **Text, dates, people:** edit `index.html` directly. Each person is one `<li>`
   in the speakers or organizers list.
 - **New photo:** a square JPEG of about 480x480 in `assets/img/people/`.
-- **Hero plot labels:** the examples along the tail are the `<text>` elements
-  inside `<svg class="tail">` in `index.html`.
+- **Hero plot icons:** the examples along the tail are the `<svg class="tail-label">`
+  elements in `index.html`; each `<title>` provides the task name on hover.
 - **After acceptance:** update the hero line ("A proposed workshop at ICLR 2027 …"),
   the call-for-papers status line, the footer, and the `<title>`.
 

@@ -198,12 +198,13 @@ a:focus-visible, .btn:focus-visible {
 .tail-pt circle { fill: var(--tail); }
 .tail-pt circle.is-labelled { stroke: var(--paper); stroke-width: 2; }
 
-.tail-label text {
-  font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 500;
-  font-stretch: 90%;
-  fill: var(--ink);
+.tail-icon {
+  transform: translate(-20px, -54px);
+  fill: none;
+  stroke: var(--tail);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .tail-caption {
@@ -226,8 +227,9 @@ a:focus-visible, .btn:focus-visible {
 }
 
 @media (max-width: 40rem) {
-  .tail-pt.is-odd, .tail-label.is-minor { display: none; }
-  .tail-label text { font-size: 11px; }
+  .tail-pt.is-odd { display: none; }
+  .tail-pt.is-odd:has(.is-labelled) { display: inline; }
+  .tail-icon { transform: translate(-12px, -40px) scale(.6); }
 }
 
 /* Sections */
